@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pip install fastapi \"uvicorn[standard]\" \"sqlalchemy[asyncio]\" pydantic \"pydantic-settings\" aiosqlite \"python-jose[cryptography]\" \"passlib[bcrypt]\" pyotp itsdangerous python-multipart slowapi)",
+      "Bash(python -c \"from app.main import app; print\\('App imported OK'\\); print\\('Routes:', len\\(app.routes\\)\\)\")"
+    ]
+  }
+}
